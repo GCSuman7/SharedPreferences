@@ -9,18 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".AddWordActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RegisterActivity">
+
+        </activity>
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".AddWordActivity" />
         <activity android:name=".CapitalActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="mydictionary" />
+            android:label="mydictionary"></activity>
     </application>
 
 </manifest>

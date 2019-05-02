@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
                 String[] parts = line.split("->");
                 dictionary.put(parts[0],parts[1]);
             }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
